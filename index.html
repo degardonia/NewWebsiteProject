@@ -116,10 +116,6 @@
             p.scored = true;
             score++;
             scoreEl.textContent = score;
-            if (score === 1) {
-              window.location.href = 'https://www.youtube.com/watch?v=QDia3e12czc';
-              return;
-            }
           }
           if (hitPipe(p.x, p.gapY)) {
             endGame();
